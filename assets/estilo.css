@@ -1,0 +1,40 @@
+body{
+ 
+   background-color:#020202; 
+   margin: 0;
+   padding: 0;
+}
+header{
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.container{
+    width: 921px;
+    height: 300px;
+    margin-top: 14px;
+}
+
+#personagens, #filmes{
+
+    color: #000000;
+    border-style: solid 1px;
+    border-radius: 200px;
+    background-color: #8B8585;
+    font-family: 'UnifrakturMaguntia', cursive;
+
+    height: 40px;
+    width: 178px;
+ 
+
+}
+
+
+
+
+
+
+
+
