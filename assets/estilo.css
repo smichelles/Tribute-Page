@@ -8,6 +8,6 @@ body{
 
    width: 100vw;
    height: 100vh;
-   background-image: url("\..\..assets\img\bg.jpg");
+   background-image: url("\s..\..assets\img\bg.jpg");
    background-size: cover;
 }
