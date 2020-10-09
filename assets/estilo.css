@@ -8,6 +8,54 @@ body{
 
    width: 100vw;
    height: 100vh;
-   background-image: url("\s..\..assets\img\bg.jpg");
+   background-image: url("../assets/img/harry-potter-2188468_1280.jpg");
    background-size: cover;
+}
+
+.container{
+
+  margin-left: 70px;
+  margin-top: 15px;
+  display: flex;.
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color:blue;
+
+.container2{
+
+  margin-left: 70px;
+  margin-top: 15px;
+  display: flex;.
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color:red;
+
+}
+  
+
+
+
+}
+
+img{
+   
+  height: 250px;
+
+}
+
+.itens{
+
+  margin: 20px;
+}
+
+
+p,h1{
+
+  color: aliceblue;
+  text-align: center;
 }
