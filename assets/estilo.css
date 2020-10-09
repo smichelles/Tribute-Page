@@ -1,61 +1,64 @@
 body{
 
   margin: 0;
+  padding: 0;
+ 
 
 }
 
-.bg{
+header{
+  height: 100px;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-   width: 100vw;
-   height: 100vh;
-   background-image: url("../assets/img/harry-potter-2188468_1280.jpg");
-   background-size: cover;
 }
+
 
 .container{
 
-  margin-left: 70px;
-  margin-top: 15px;
+  margin-left: 20px;
+  margin-top: 30px;
   display: flex;.
-  flex-direction: column-reverse;
-  flex-wrap: nowrap;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
 
   background-color:blue;
-
-.container2{
-
-  margin-left: 70px;
-  margin-top: 15px;
-  display: flex;.
-  flex-direction: column-reverse;
-  flex-wrap: nowrap;
+}
+.filmes{
+  margin-top: 30px;
+  background-color: brown;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
   align-items: center;
-  background-color:red;
+
+
 
 }
+
+
+
   
-
-
-
 }
 
 img{
    
-  height: 250px;
+  height: 90px;
 
 }
 
-.itens{
-
-  margin: 20px;
-}
 
 
 p,h1{
 
-  color: aliceblue;
+  color: black;
   text-align: center;
 }
