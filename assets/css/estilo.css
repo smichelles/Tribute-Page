@@ -1,0 +1,33 @@
+/*HEADER*/
+
+header{width: 100%;display: flex; justify-content: space-around; align-items: center;}
+header p{ font-size: 50px; color: #37270d; }
+header img { width: 300px;}
+
+@media (max-width: 950px){
+    header{flex-direction: column;}
+    header img{width:350px; padding-top: 30px;}
+    header p{text-align: center; padding-bottom: 30px;}
+
+}
+
+
+
+/* SECTION PERSONAGENS-PRINCIPAIS */
+
+
+.personagens-principais {display:flex; flex-direction: column; align-items: center; }
+.personagens-principais h1{ margin-top: 80px;}
+.personagens-principais hr{width: 200px; height: 2px; background-color: black; margin-top: auto; margin-bottom: 10px;}
+
+.personagens-principais .lista{ display: flex; flex-direction: row; flex-wrap: wrap; }
+.personagens-principais img {margin: 10px; padding-top: 5px; border-radius: 50px;}
+.personagens-principais p {text-align: center; margin-top: 5px; }
+
+
+@media (max-width: 1136px){
+    .personagens-principais .lista{flex-direction: column; align-items: center;}
+    
+ 
+
+}
