@@ -1,5 +1,5 @@
 body{
-    background-color:lightslategrey;
+    background-color:whitesmoke;
     font-family: 'David Libre', serif; 
 
 }
@@ -59,3 +59,10 @@ header img { width: 290px; padding-top: 15px;}
     .curiosidades-02{flex-direction: column; justify-content: center;align-items: center;}
 
 }
+
+/*FOOTER*/
+
+footer{ width:100%;height: 50px;display: flex; flex-direction: row-reverse; }
+
+footer p{ padding:5px; color: yellowgreen;}
+   
